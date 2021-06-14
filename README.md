@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Screenrecord](https://github.com/joelpjoji/reactstrap-resume/blob/master/Screenrecord/screenrecord.gif)
+<img src="https://github.com/joelpjoji/reactstrap-resume/blob/master/Screenrecord/screenrecord.gif">
 
 ## Available Scripts
 

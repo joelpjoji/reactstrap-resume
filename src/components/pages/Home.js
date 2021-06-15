@@ -8,25 +8,35 @@ import Educations from "../../components/pages/educations/Educations";
 import Achievements from "../../components/pages/achievements/Achievements";
 import Certificates from "../../components/pages/certificates/Certificates";
 import Projects from "../../components/pages/projects/Projects";
+import { Row, Col,Card, CardGroup } from 'reactstrap';
+
 
 export default class Home extends Component {
   render() {
     return (
       <section>
-        <div className="row sameHeight">
-            <div className="col s12 m12 l4 light-blue darken-4 sameHeight_child">
+        <div >
+        <Row>
+        <CardGroup>
+            <Card style={{ backgroundColor: '#01579b'}} >
+              <Col >
                 <Profile />
                 <Contact />
                 <Skills />
-            </div>
-            <div className="col s12 m12 l8 white sameHeight_child">
-            <About />
+              </Col>
+            </Card>
+            <Card >
+              <Col>   
+                <About />
                 <Educations />
                 <Experiences />
                 <Projects />
                 <Certificates />
                 <Achievements />
-            </div>
+              </Col>
+            </Card>
+          </CardGroup>
+          </Row>
         </div>
       </section>
     )

@@ -53,6 +53,7 @@ export default class Skills extends Component {
               </div>
               <h6 className="white-text">
               <strong>SOFT SKILLS</strong>
+              <hr />
             </h6>
             <div className="row pt">
               <div className="col m6 s12">
